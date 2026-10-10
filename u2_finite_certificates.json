@@ -1,0 +1,4278 @@
+{
+  "software": {
+    "python": "3.x",
+    "networkx": "3.5"
+  },
+  "graphs": {
+    "K4": {
+      "order": 4,
+      "adjacency": {
+        "0": [
+          1,
+          2,
+          3
+        ],
+        "1": [
+          0,
+          2,
+          3
+        ],
+        "2": [
+          0,
+          1,
+          3
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ]
+      },
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "lonely_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "perfect_matching_count": 3
+    },
+    "Pr": {
+      "order": 6,
+      "adjacency": {
+        "0": [
+          3,
+          4,
+          5
+        ],
+        "1": [
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          3,
+          5
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": [
+          0,
+          1,
+          5
+        ],
+        "5": [
+          0,
+          2,
+          4
+        ]
+      },
+      "triangles": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "lonely_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "perfect_matching_count": 4
+    },
+    "bicorn": {
+      "order": 8,
+      "adjacency": {
+        "0": [
+          5,
+          6,
+          7
+        ],
+        "1": [
+          2,
+          3,
+          4
+        ],
+        "2": [
+          1,
+          3,
+          5
+        ],
+        "3": [
+          1,
+          2,
+          6
+        ],
+        "4": [
+          1,
+          5,
+          7
+        ],
+        "5": [
+          0,
+          2,
+          4
+        ],
+        "6": [
+          0,
+          3,
+          7
+        ],
+        "7": [
+          0,
+          4,
+          6
+        ]
+      },
+      "triangles": [
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "lonely_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "perfect_matching_count": 5
+    },
+    "T0": {
+      "order": 10,
+      "adjacency": {
+        "0": [
+          5,
+          6,
+          7
+        ],
+        "1": [
+          2,
+          3,
+          8
+        ],
+        "2": [
+          1,
+          3,
+          5
+        ],
+        "3": [
+          1,
+          2,
+          6
+        ],
+        "4": [
+          7,
+          8,
+          9
+        ],
+        "5": [
+          0,
+          2,
+          9
+        ],
+        "6": [
+          0,
+          3,
+          7
+        ],
+        "7": [
+          0,
+          4,
+          6
+        ],
+        "8": [
+          1,
+          4,
+          9
+        ],
+        "9": [
+          4,
+          5,
+          8
+        ]
+      },
+      "triangles": [
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          8,
+          9
+        ]
+      ],
+      "lonely_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "perfect_matching_count": 6
+    },
+    "T1": {
+      "order": 12,
+      "adjacency": {
+        "0": [
+          7,
+          10,
+          11
+        ],
+        "1": [
+          2,
+          3,
+          8
+        ],
+        "2": [
+          1,
+          3,
+          5
+        ],
+        "3": [
+          1,
+          2,
+          6
+        ],
+        "4": [
+          7,
+          8,
+          9
+        ],
+        "5": [
+          2,
+          9,
+          10
+        ],
+        "6": [
+          3,
+          7,
+          11
+        ],
+        "7": [
+          0,
+          4,
+          6
+        ],
+        "8": [
+          1,
+          4,
+          9
+        ],
+        "9": [
+          4,
+          5,
+          8
+        ],
+        "10": [
+          0,
+          5,
+          11
+        ],
+        "11": [
+          0,
+          6,
+          10
+        ]
+      },
+      "triangles": [
+        [
+          0,
+          10,
+          11
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          8,
+          9
+        ]
+      ],
+      "lonely_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "perfect_matching_count": 7
+    },
+    "T2": {
+      "order": 14,
+      "adjacency": {
+        "0": [
+          7,
+          10,
+          11
+        ],
+        "1": [
+          3,
+          8,
+          12
+        ],
+        "2": [
+          5,
+          12,
+          13
+        ],
+        "3": [
+          1,
+          6,
+          13
+        ],
+        "4": [
+          7,
+          8,
+          9
+        ],
+        "5": [
+          2,
+          9,
+          10
+        ],
+        "6": [
+          3,
+          7,
+          11
+        ],
+        "7": [
+          0,
+          4,
+          6
+        ],
+        "8": [
+          1,
+          4,
+          9
+        ],
+        "9": [
+          4,
+          5,
+          8
+        ],
+        "10": [
+          0,
+          5,
+          11
+        ],
+        "11": [
+          0,
+          6,
+          10
+        ],
+        "12": [
+          1,
+          2,
+          13
+        ],
+        "13": [
+          2,
+          3,
+          12
+        ]
+      },
+      "triangles": [
+        [
+          0,
+          10,
+          11
+        ],
+        [
+          2,
+          12,
+          13
+        ],
+        [
+          4,
+          8,
+          9
+        ]
+      ],
+      "lonely_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "perfect_matching_count": 8
+    },
+    "T3": {
+      "order": 16,
+      "adjacency": {
+        "0": [
+          7,
+          10,
+          11
+        ],
+        "1": [
+          3,
+          8,
+          12
+        ],
+        "2": [
+          5,
+          12,
+          13
+        ],
+        "3": [
+          1,
+          6,
+          13
+        ],
+        "4": [
+          7,
+          8,
+          14
+        ],
+        "5": [
+          2,
+          10,
+          15
+        ],
+        "6": [
+          3,
+          7,
+          11
+        ],
+        "7": [
+          0,
+          4,
+          6
+        ],
+        "8": [
+          1,
+          4,
+          9
+        ],
+        "9": [
+          8,
+          14,
+          15
+        ],
+        "10": [
+          0,
+          5,
+          11
+        ],
+        "11": [
+          0,
+          6,
+          10
+        ],
+        "12": [
+          1,
+          2,
+          13
+        ],
+        "13": [
+          2,
+          3,
+          12
+        ],
+        "14": [
+          4,
+          9,
+          15
+        ],
+        "15": [
+          5,
+          9,
+          14
+        ]
+      },
+      "triangles": [
+        [
+          0,
+          10,
+          11
+        ],
+        [
+          2,
+          12,
+          13
+        ],
+        [
+          9,
+          14,
+          15
+        ]
+      ],
+      "lonely_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "perfect_matching_count": 9
+    },
+    "D0": {
+      "order": 12,
+      "adjacency": {
+        "0": [
+          5,
+          6,
+          7
+        ],
+        "1": [
+          8,
+          10,
+          11
+        ],
+        "2": [
+          3,
+          5,
+          10
+        ],
+        "3": [
+          2,
+          6,
+          11
+        ],
+        "4": [
+          7,
+          8,
+          9
+        ],
+        "5": [
+          0,
+          2,
+          9
+        ],
+        "6": [
+          0,
+          3,
+          7
+        ],
+        "7": [
+          0,
+          4,
+          6
+        ],
+        "8": [
+          1,
+          4,
+          9
+        ],
+        "9": [
+          4,
+          5,
+          8
+        ],
+        "10": [
+          1,
+          2,
+          11
+        ],
+        "11": [
+          1,
+          3,
+          10
+        ]
+      },
+      "triangles": [
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          1,
+          10,
+          11
+        ],
+        [
+          4,
+          8,
+          9
+        ]
+      ],
+      "lonely_edges": [
+        [
+          1,
+          10
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "perfect_matching_count": 8
+    },
+    "D1": {
+      "order": 14,
+      "adjacency": {
+        "0": [
+          7,
+          11,
+          12
+        ],
+        "1": [
+          2,
+          3,
+          8
+        ],
+        "2": [
+          1,
+          3,
+          5
+        ],
+        "3": [
+          1,
+          2,
+          6
+        ],
+        "4": [
+          7,
+          8,
+          9
+        ],
+        "5": [
+          2,
+          9,
+          13
+        ],
+        "6": [
+          3,
+          7,
+          11
+        ],
+        "7": [
+          0,
+          4,
+          6
+        ],
+        "8": [
+          1,
+          4,
+          9
+        ],
+        "9": [
+          4,
+          5,
+          8
+        ],
+        "10": [
+          11,
+          12,
+          13
+        ],
+        "11": [
+          0,
+          6,
+          10
+        ],
+        "12": [
+          0,
+          10,
+          13
+        ],
+        "13": [
+          5,
+          10,
+          12
+        ]
+      },
+      "triangles": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          10,
+          12,
+          13
+        ]
+      ],
+      "lonely_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "perfect_matching_count": 9
+    },
+    "D2": {
+      "order": 14,
+      "adjacency": {
+        "0": [
+          11,
+          12,
+          13
+        ],
+        "1": [
+          2,
+          3,
+          8
+        ],
+        "2": [
+          1,
+          3,
+          5
+        ],
+        "3": [
+          1,
+          2,
+          6
+        ],
+        "4": [
+          7,
+          8,
+          9
+        ],
+        "5": [
+          2,
+          9,
+          10
+        ],
+        "6": [
+          3,
+          7,
+          11
+        ],
+        "7": [
+          4,
+          6,
+          12
+        ],
+        "8": [
+          1,
+          4,
+          9
+        ],
+        "9": [
+          4,
+          5,
+          8
+        ],
+        "10": [
+          5,
+          11,
+          13
+        ],
+        "11": [
+          0,
+          6,
+          10
+        ],
+        "12": [
+          0,
+          7,
+          13
+        ],
+        "13": [
+          0,
+          10,
+          12
+        ]
+      },
+      "triangles": [
+        [
+          0,
+          12,
+          13
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          8,
+          9
+        ]
+      ],
+      "lonely_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "perfect_matching_count": 9
+    }
+  },
+  "upper_children": {
+    "K4": [
+      {
+        "roots": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "child_order": 6,
+        "lonely_edge_count": 6
+      }
+    ],
+    "Pr": [
+      {
+        "roots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "child_order": 8,
+        "lonely_edge_count": 5
+      }
+    ],
+    "bicorn": [
+      {
+        "roots": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "child_order": 10,
+        "lonely_edge_count": 4
+      },
+      {
+        "roots": [
+          3,
+          6
+        ],
+        "child_order": 10,
+        "lonely_edge_count": 4
+      },
+      {
+        "roots": [
+          4,
+          5
+        ],
+        "child_order": 10,
+        "lonely_edge_count": 3
+      }
+    ]
+  },
+  "sigma_partitions": {
+    "T0": {
+      "0": [
+        0,
+        2,
+        9
+      ],
+      "1": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "3": [
+        5
+      ]
+    },
+    "T1": {
+      "0": [
+        2,
+        9
+      ],
+      "1": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "3": [
+        5
+      ]
+    },
+    "T2": {
+      "0": [
+        9
+      ],
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "3": [
+        5
+      ]
+    },
+    "T3": {
+      "0": [],
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "3": [
+        5
+      ]
+    }
+  },
+  "sigma_certificates": {
+    "T0": {
+      "0": {
+        "sigma": [],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  2
+                ],
+                [
+                  4,
+                  8,
+                  9
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  1,
+                  2,
+                  3
+                ],
+                [
+                  9
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "1": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "incident_with_root"
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                5
+              ],
+              [
+                4,
+                9
+              ]
+            ]
+          }
+        }
+      },
+      "2": {
+        "sigma": [],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  6,
+                  7
+                ],
+                [
+                  9
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0
+                ],
+                [
+                  4,
+                  8,
+                  9
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "incident_with_root"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                5,
+                9
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "4": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                6
+              ],
+              [
+                2,
+                5
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "incident_with_root"
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "5": {
+        "sigma": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                4,
+                8
+              ],
+              [
+                6,
+                7
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                1,
+                3
+              ],
+              [
+                6,
+                7
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                1,
+                3
+              ],
+              [
+                4,
+                8
+              ]
+            ]
+          }
+        }
+      },
+      "6": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                1,
+                2
+              ],
+              [
+                5,
+                9
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "incident_with_root"
+          }
+        }
+      },
+      "7": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                2,
+                5
+              ],
+              [
+                8,
+                9
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "incident_with_root"
+          }
+        }
+      },
+      "8": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "incident_with_root"
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                5
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          }
+        }
+      },
+      "9": {
+        "sigma": [],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  6,
+                  7
+                ],
+                [
+                  2
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  3
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "T1": {
+      "0": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  2,
+                  4,
+                  5,
+                  8,
+                  9
+                ],
+                [
+                  6
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                5,
+                9
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "1": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "incident_with_root"
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                5,
+                10
+              ]
+            ]
+          }
+        }
+      },
+      "2": {
+        "sigma": [],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  6,
+                  7,
+                  10,
+                  11
+                ],
+                [
+                  9
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  10,
+                  11
+                ],
+                [
+                  4,
+                  8,
+                  9
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "incident_with_root"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "4": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                10
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                6,
+                11
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "incident_with_root"
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "5": {
+        "sigma": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                6,
+                11
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                6,
+                11
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                4,
+                8
+              ]
+            ]
+          }
+        }
+      },
+      "6": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                5,
+                9
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "incident_with_root"
+          }
+        }
+      },
+      "7": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                2,
+                5
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "incident_with_root"
+          }
+        }
+      },
+      "8": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "incident_with_root"
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                5,
+                10
+              ]
+            ]
+          }
+        }
+      },
+      "9": {
+        "sigma": [],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  6,
+                  7,
+                  10,
+                  11
+                ],
+                [
+                  2
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  10,
+                  11
+                ],
+                [
+                  1,
+                  2,
+                  3
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "10": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  2
+                ],
+                [
+                  4,
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  1,
+                  2,
+                  3,
+                  6,
+                  7
+                ],
+                [
+                  9
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                4,
+                9
+              ]
+            ]
+          }
+        }
+      },
+      "11": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                2,
+                5
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                8,
+                9
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  1,
+                  2,
+                  3,
+                  5,
+                  9
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      }
+    },
+    "T2": {
+      "0": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  2,
+                  4,
+                  5,
+                  8,
+                  9,
+                  12,
+                  13
+                ],
+                [
+                  6
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                5,
+                9
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "1": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "incident_with_root"
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                5,
+                10
+              ]
+            ]
+          }
+        }
+      },
+      "2": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                10
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                8,
+                9
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  1,
+                  3,
+                  6,
+                  7,
+                  10,
+                  11
+                ],
+                [
+                  9
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  10,
+                  11
+                ],
+                [
+                  1,
+                  3,
+                  4,
+                  8,
+                  9
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "incident_with_root"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "4": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                10
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "incident_with_root"
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "5": {
+        "sigma": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          }
+        }
+      },
+      "6": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                5,
+                9
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "incident_with_root"
+          }
+        }
+      },
+      "7": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                2,
+                5
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                10,
+                11
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "incident_with_root"
+          }
+        }
+      },
+      "8": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "incident_with_root"
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                3,
+                13
+              ],
+              [
+                5,
+                10
+              ]
+            ]
+          }
+        }
+      },
+      "9": {
+        "sigma": [],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  6,
+                  7,
+                  10,
+                  11
+                ],
+                [
+                  2,
+                  12,
+                  13
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  10,
+                  11
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  12,
+                  13
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "10": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  2,
+                  12,
+                  13
+                ],
+                [
+                  4,
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  1,
+                  2,
+                  3,
+                  6,
+                  7,
+                  12,
+                  13
+                ],
+                [
+                  9
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                3,
+                13
+              ],
+              [
+                4,
+                9
+              ]
+            ]
+          }
+        }
+      },
+      "11": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                2,
+                5
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  1,
+                  2,
+                  3,
+                  5,
+                  9,
+                  12,
+                  13
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "12": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  4,
+                  5,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  3
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "13": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  5,
+                  6,
+                  7,
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  1
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                5,
+                10
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "T3": {
+      "0": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  2,
+                  4,
+                  5,
+                  8,
+                  9,
+                  12,
+                  13,
+                  14,
+                  15
+                ],
+                [
+                  6
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                5,
+                15
+              ],
+              [
+                9,
+                14
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "1": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "incident_with_root"
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                4,
+                14
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                9,
+                15
+              ]
+            ]
+          }
+        }
+      },
+      "2": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                10
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                14,
+                15
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  1,
+                  3,
+                  6,
+                  7,
+                  10,
+                  11
+                ],
+                [
+                  9,
+                  14,
+                  15
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  10,
+                  11
+                ],
+                [
+                  1,
+                  3,
+                  4,
+                  8,
+                  9,
+                  14,
+                  15
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "incident_with_root"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                5,
+                15
+              ],
+              [
+                9,
+                14
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "4": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                10
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                9,
+                15
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "incident_with_root"
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "5": {
+        "sigma": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                9,
+                14
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                9,
+                14
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                9,
+                14
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          }
+        }
+      },
+      "6": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                5,
+                15
+              ],
+              [
+                9,
+                14
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "incident_with_root"
+          }
+        }
+      },
+      "7": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                2,
+                5
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                10,
+                11
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                14,
+                15
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "incident_with_root"
+          }
+        }
+      },
+      "8": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "incident_with_root"
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                3,
+                13
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                14,
+                15
+              ]
+            ]
+          }
+        }
+      },
+      "9": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                10
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                12,
+                13
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  1,
+                  2,
+                  3,
+                  5,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                [
+                  4
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "10": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  2,
+                  12,
+                  13
+                ],
+                [
+                  4,
+                  6,
+                  7,
+                  8,
+                  9,
+                  14,
+                  15
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  1,
+                  2,
+                  3,
+                  6,
+                  7,
+                  12,
+                  13
+                ],
+                [
+                  9,
+                  14,
+                  15
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                3,
+                13
+              ],
+              [
+                4,
+                14
+              ],
+              [
+                9,
+                15
+              ]
+            ]
+          }
+        }
+      },
+      "11": {
+        "sigma": [
+          [
+            1,
+            3
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                2,
+                5
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                14,
+                15
+              ]
+            ]
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  1,
+                  2,
+                  3,
+                  5,
+                  9,
+                  12,
+                  13,
+                  14,
+                  15
+                ],
+                [
+                  7
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          }
+        }
+      },
+      "12": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                5,
+                15
+              ],
+              [
+                9,
+                14
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  4,
+                  5,
+                  8,
+                  9,
+                  10,
+                  11,
+                  14,
+                  15
+                ],
+                [
+                  3
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "13": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(4, 8)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  5,
+                  6,
+                  7,
+                  9,
+                  10,
+                  11,
+                  14,
+                  15
+                ],
+                [
+                  1
+                ]
+              ]
+            }
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                4,
+                14
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                9,
+                15
+              ]
+            ]
+          }
+        }
+      },
+      "14": {
+        "sigma": [
+          [
+            6,
+            7
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  2,
+                  5,
+                  6,
+                  7,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                [
+                  8
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "endpoint_in_closed_neighbourhood"
+          },
+          "(6, 7)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                3,
+                13
+              ],
+              [
+                5,
+                10
+              ]
+            ]
+          }
+        }
+      },
+      "15": {
+        "sigma": [
+          [
+            4,
+            8
+          ]
+        ],
+        "lonely_edges": {
+          "(1, 3)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  4,
+                  6,
+                  7,
+                  8,
+                  10,
+                  11
+                ],
+                [
+                  2,
+                  12,
+                  13
+                ]
+              ]
+            }
+          },
+          "(4, 8)": {
+            "status": "in_sigma",
+            "perfect_matching": [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                10,
+                11
+              ]
+            ]
+          },
+          "(6, 7)": {
+            "status": "not_in_sigma",
+            "tutte_witness": {
+              "S": [],
+              "odd_components": [
+                [
+                  0,
+                  10,
+                  11
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4,
+                  8,
+                  12,
+                  13
+                ]
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "u3_child_classes": {
+    "T0": [
+      [
+        0,
+        2,
+        9
+      ]
+    ],
+    "T1": [
+      [
+        2,
+        9
+      ]
+    ],
+    "T2": [
+      [
+        9
+      ]
+    ],
+    "T3": []
+  },
+  "u2_child_classes": {
+    "T0": [
+      {
+        "representative_root": 1,
+        "roots": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "known_kernel": "D0",
+        "new_triangle": [
+          1,
+          10,
+          11
+        ],
+        "other_U2_parents": []
+      }
+    ],
+    "T1": [
+      {
+        "representative_root": 0,
+        "roots": [
+          0,
+          11
+        ],
+        "known_kernel": "D2",
+        "new_triangle": [
+          0,
+          12,
+          13
+        ],
+        "other_U2_parents": []
+      },
+      {
+        "representative_root": 1,
+        "roots": [
+          1,
+          8
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          1,
+          12,
+          13
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              0,
+              10,
+              11
+            ],
+            "types": [
+              "D0"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 3,
+        "roots": [
+          3,
+          4
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          3,
+          12,
+          13
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              0,
+              10,
+              11
+            ],
+            "types": [
+              "D0"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 6,
+        "roots": [
+          6,
+          7
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          6,
+          12,
+          13
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              0,
+              10,
+              11
+            ],
+            "types": [
+              "D0"
+            ]
+          },
+          {
+            "triangle": [
+              4,
+              8,
+              9
+            ],
+            "types": [
+              "D0"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 10,
+        "roots": [
+          10
+        ],
+        "known_kernel": "D1",
+        "new_triangle": [
+          10,
+          12,
+          13
+        ],
+        "other_U2_parents": []
+      }
+    ],
+    "T2": [
+      {
+        "representative_root": 0,
+        "roots": [
+          0,
+          12
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          0,
+          14,
+          15
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              2,
+              12,
+              13
+            ],
+            "types": [
+              "D2"
+            ]
+          },
+          {
+            "triangle": [
+              4,
+              8,
+              9
+            ],
+            "types": [
+              "P(1213)"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 1,
+        "roots": [
+          1,
+          7
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          1,
+          14,
+          15
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              0,
+              10,
+              11
+            ],
+            "types": [
+              "D0^2"
+            ]
+          },
+          {
+            "triangle": [
+              2,
+              12,
+              13
+            ],
+            "types": [
+              "D0^0"
+            ]
+          },
+          {
+            "triangle": [
+              4,
+              8,
+              9
+            ],
+            "types": [
+              "D2"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 2,
+        "roots": [
+          2,
+          10
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          2,
+          14,
+          15
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              0,
+              10,
+              11
+            ],
+            "types": [
+              "D1"
+            ]
+          },
+          {
+            "triangle": [
+              4,
+              8,
+              9
+            ],
+            "types": [
+              "P(1121)"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 3,
+        "roots": [
+          3,
+          6
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          3,
+          14,
+          15
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              0,
+              10,
+              11
+            ],
+            "types": [
+              "D0^2"
+            ]
+          },
+          {
+            "triangle": [
+              2,
+              12,
+              13
+            ],
+            "types": [
+              "D0^9"
+            ]
+          },
+          {
+            "triangle": [
+              4,
+              8,
+              9
+            ],
+            "types": [
+              "D0^11"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 4,
+        "roots": [
+          4,
+          8
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          4,
+          14,
+          15
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              0,
+              10,
+              11
+            ],
+            "types": [
+              "D0^0"
+            ]
+          },
+          {
+            "triangle": [
+              2,
+              12,
+              13
+            ],
+            "types": [
+              "D0^9"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 11,
+        "roots": [
+          11,
+          13
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          11,
+          14,
+          15
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              2,
+              12,
+              13
+            ],
+            "types": [
+              "D2"
+            ]
+          },
+          {
+            "triangle": [
+              4,
+              8,
+              9
+            ],
+            "types": [
+              "P(1212)"
+            ]
+          }
+        ]
+      }
+    ],
+    "T3": [
+      {
+        "representative_root": 0,
+        "roots": [
+          0,
+          9,
+          11,
+          12,
+          13,
+          14
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          0,
+          16,
+          17
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              2,
+              12,
+              13
+            ],
+            "types": [
+              "T2^11"
+            ]
+          },
+          {
+            "triangle": [
+              9,
+              14,
+              15
+            ],
+            "types": [
+              "T2^0"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 1,
+        "roots": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          1,
+          16,
+          17
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              0,
+              10,
+              11
+            ],
+            "types": [
+              "T2^3"
+            ]
+          },
+          {
+            "triangle": [
+              2,
+              12,
+              13
+            ],
+            "types": [
+              "T2^4"
+            ]
+          },
+          {
+            "triangle": [
+              9,
+              14,
+              15
+            ],
+            "types": [
+              "T2^1"
+            ]
+          }
+        ]
+      },
+      {
+        "representative_root": 2,
+        "roots": [
+          2,
+          10,
+          15
+        ],
+        "known_kernel": null,
+        "new_triangle": [
+          2,
+          16,
+          17
+        ],
+        "other_U2_parents": [
+          {
+            "triangle": [
+              0,
+              10,
+              11
+            ],
+            "types": [
+              "T2^2"
+            ]
+          },
+          {
+            "triangle": [
+              9,
+              14,
+              15
+            ],
+            "types": [
+              "T2^2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "D_parents": {
+    "D0": [
+      {
+        "triangle": [
+          0,
+          6,
+          7
+        ],
+        "lonely_edge_count": 4,
+        "types": [
+          "P(11)"
+        ]
+      },
+      {
+        "triangle": [
+          1,
+          10,
+          11
+        ],
+        "lonely_edge_count": 3,
+        "types": [
+          "T0"
+        ]
+      },
+      {
+        "triangle": [
+          4,
+          8,
+          9
+        ],
+        "lonely_edge_count": 4,
+        "types": [
+          "P(12)"
+        ]
+      }
+    ],
+    "D1": [
+      {
+        "triangle": [
+          1,
+          2,
+          3
+        ],
+        "lonely_edge_count": 3,
+        "types": [
+          "P(112)"
+        ]
+      },
+      {
+        "triangle": [
+          4,
+          8,
+          9
+        ],
+        "lonely_edge_count": 3,
+        "types": [
+          "P(112)"
+        ]
+      },
+      {
+        "triangle": [
+          10,
+          12,
+          13
+        ],
+        "lonely_edge_count": 3,
+        "types": [
+          "T1"
+        ]
+      }
+    ],
+    "D2": [
+      {
+        "triangle": [
+          0,
+          12,
+          13
+        ],
+        "lonely_edge_count": 3,
+        "types": [
+          "T1"
+        ]
+      },
+      {
+        "triangle": [
+          1,
+          2,
+          3
+        ],
+        "lonely_edge_count": 3,
+        "types": [
+          "P(121)"
+        ]
+      },
+      {
+        "triangle": [
+          4,
+          8,
+          9
+        ],
+        "lonely_edge_count": 3,
+        "types": [
+          "P(123)"
+        ]
+      }
+    ]
+  },
+  "length4_table": [
+    {
+      "pattern": "1111",
+      "perfect_matching_count": 15,
+      "lonely_edge_count": 4
+    },
+    {
+      "pattern": "1112",
+      "perfect_matching_count": 11,
+      "lonely_edge_count": 3
+    },
+    {
+      "pattern": "1121",
+      "perfect_matching_count": 9,
+      "lonely_edge_count": 2
+    },
+    {
+      "pattern": "1122",
+      "perfect_matching_count": 11,
+      "lonely_edge_count": 2
+    },
+    {
+      "pattern": "1123",
+      "perfect_matching_count": 11,
+      "lonely_edge_count": 3
+    },
+    {
+      "pattern": "1212",
+      "perfect_matching_count": 9,
+      "lonely_edge_count": 2
+    },
+    {
+      "pattern": "1213",
+      "perfect_matching_count": 9,
+      "lonely_edge_count": 2
+    },
+    {
+      "pattern": "1221",
+      "perfect_matching_count": 10,
+      "lonely_edge_count": 2
+    },
+    {
+      "pattern": "1223",
+      "perfect_matching_count": 9,
+      "lonely_edge_count": 2
+    },
+    {
+      "pattern": "1231",
+      "perfect_matching_count": 10,
+      "lonely_edge_count": 2
+    }
+  ]
+}

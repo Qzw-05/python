@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this verification supplement, please cite the paper and this repository."
+authors:
+  - name: "Qzw-05"
+title: "U2 Kernel Constructive-Expansion Verification"
+version: "1.0.0"
+date-released: 2026-10-11
+url: "https://github.com/Qzw-05/python"

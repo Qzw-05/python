@@ -21,7 +21,7 @@ The unified program covers the following material.
 - **Marked constructions:** the finite seed graphs and the explicitly encoded
   infinite samples used to check the marking rules.
 - **Further marking checks:** the finite and sampled cases recorded in the
-  revised Sections 7–9 certificate file.
+   certificate file.
 - **Infinite transfer checks:** local transfer tables, double-rung relations,
   and explicit witnesses for the tested ladder lengths.
 

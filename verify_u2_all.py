@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unified reproducibility checker for the U2 kernel constructive-expansion paper.
+"""Unified reproducibility checker for “Characterization of Cubic Graphs with Exactly Two Lonely Edges.”
 
 Runs the four supplied verification suites in their original order and writes:
   u2_finite_certificates.json
@@ -7,7 +7,7 @@ Runs the four supplied verification suites in their original order and writes:
   revised_sections_7_9_certificates.json
   infinite_transfer_certificates.json
 
-Requires Python >= 3.10 and networkx (the paper specifies networkx==3.6.1).
+Requires Python >= 3.11 and networkx==3.6.1.
 """
 from __future__ import annotations
 import argparse

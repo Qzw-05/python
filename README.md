@@ -1,24 +1,41 @@
-# U2 Kernel Constructive-Expansion Verification
+# Verification Supplement for “Characterization of Cubic Graphs with Exactly Two Lonely Edges”
 
-This repository contains a reproducibility checker for the paper
-**“U2 kernel constructive expansion”** and its revised Sections 7–9.
-The checker verifies the finite kernel data, the marked constructive
-expansions, the standard marking claims, and the infinite ladder-transfer
-witnesses described in the paper.
+This repository contains the computational supplement accompanying the manuscript
+**“Characterization of Cubic Graphs with Exactly Two Lonely Edges”** by Zewei Qian
+and Pingshan Li.
 
-The program is a verification supplement. It recomputes graph constructions,
-perfect matchings, lonely edges, `Sigma` partitions, marking data, and explicit
-witnesses, then writes JSON certificates. Passing the program confirms the
-encoded finite cases and the tested parameter ranges; it does not replace the
-paper's general mathematical arguments, induction, or external classification
-theorems.
+The program recomputes the finite graph constructions and the marked extensions
+used in the manuscript. It is intended to make the finite cases and the stated
+sampled families reproducible. A successful run is computational evidence for
+the encoded cases; it does not replace the general mathematical proofs,
+induction arguments, or classification results in the manuscript.
+
+## Scope of the verification
+
+The unified program covers the following material.
+
+- **Finite kernels and Section 4.3 base cases:** construction of `K4`, the
+  prism, the bicorn, `T0`–`T3`, `D0`–`D2`, the `Sigma` partitions, child
+  isomorphism classes, parent identifications, and the length-four pattern
+  table.
+- **Marked constructions:** the finite seed graphs and the explicitly encoded
+  infinite samples used to check the marking rules.
+- **Further marking checks:** the finite and sampled cases recorded in the
+  revised Sections 7–9 certificate file.
+- **Infinite transfer checks:** local transfer tables, double-rung relations,
+  and explicit witnesses for the tested ladder lengths.
+
+The script does **not** prove the unrestricted statements of Lemmas 3.1,
+3.5–3.7, 4.1, 4.4, or 4.19–4.21, and it does not constitute an exhaustive
+computer enumeration of all cubic graphs.
 
 ## Requirements
 
-- Python 3.10 or newer
+- Python 3.11 or newer
 - `networkx==3.6.1`
 
-The exact dependency is recorded in [`requirements.txt`](requirements.txt).
+The dependency is pinned in [`requirements.txt`](requirements.txt). NetworkX
+3.6.1 requires Python 3.11 or newer.
 
 ## Installation
 
@@ -28,13 +45,13 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-On Windows PowerShell, activate the environment with:
+On Windows PowerShell:
 
 ```powershell
-.venv\\Scripts\\Activate.ps1
+.venv\Scripts\Activate.ps1
 ```
 
-## Run all checks
+## Run the verification
 
 From the repository root:
 
@@ -42,8 +59,8 @@ From the repository root:
 python verify_u2_all.py
 ```
 
-The program asks where to save the four JSON certificates. Press Enter to use
-the repository directory, or provide a directory explicitly:
+The program asks where to save the four certificate files. Press Enter to use
+the repository directory, or pass a directory directly:
 
 ```bash
 python verify_u2_all.py --output-dir .
@@ -55,34 +72,24 @@ A successful run ends with:
 All four verification suites passed.
 ```
 
+The same command is run automatically by GitHub Actions on every push and pull
+request. The workflow is in [`.github/workflows/verify.yml`](.github/workflows/verify.yml).
+
 ## Generated certificates
 
-- `u2_finite_certificates.json`: finite kernels, lonely edges, `Sigma` partitions,
-  child classes, parent identifications, and the length-four table.
+- `u2_finite_certificates.json`: finite kernels, lonely edges, `Sigma`
+  partitions, child classes, parent identifications, and the length-four table.
 - `marked_construction_certificates.json`: finite seed constructions and
-  sampled infinite marked constructions.
-- `revised_sections_7_9_certificates.json`: standard `E`, `C`, and `T` marking
-  checks.
+  sampled marked constructions.
+- `revised_sections_7_9_certificates.json`: the encoded marking checks for the
+  revised Sections 7–9 material.
 - `infinite_transfer_certificates.json`: local transfer tables, double-rung
   relations, and explicit infinite-family witnesses.
 
-The JSON files in the repository are example certificates produced by a
-successful run. They can be regenerated with the command above.
-
-Every push and pull request is also checked by the GitHub Actions workflow in
-`.github/workflows/verify.yml`.
-
-## What is covered
-
-| Component | Computational check |
-|---|---|
-| Finite kernels | `K4`, prism, bicorn, `T0`–`T3`, `D0`–`D2`, child classes and `Sigma` partitions |
-| Marked constructions | Finite seeds and infinite samples with `r=2,...,10` |
-| Revised Sections 7–9 | Finite marking cases and infinite samples with `r=2,...,12` |
-| Infinite transfer | Local tables and explicit witnesses with `r=2,...,30`; full subset checks through `r=12` |
-
-The paper's unrestricted general proof and any separate exhaustive enumeration
-of all graphs are outside the scope of this script.
+The JSON files committed to the repository are certificates from a successful
+run and can be regenerated with the command above. Graph labels are part of
+the certificate convention; relabelling a graph can change the JSON display
+without changing its isomorphism class.
 
 ## Project layout
 
@@ -95,24 +102,12 @@ revised_sections_7_9_certificates.json  Sections 7–9 certificate
 infinite_transfer_certificates.json     infinite-transfer certificate
 ```
 
-## Reproducibility notes
-
-The verification script encodes the graph labels and marking data used by the
-paper, then independently recomputes the relevant assertions. The labels are
-part of the certificate convention, so changing labels may change the JSON
-presentation while preserving graph-isomorphism claims.
-
-For a publication or archival release, record the Python and NetworkX versions
-printed in `u2_finite_certificates.json`, retain the command output, and tag the
-repository commit used to generate the certificates.
-
 ## Citation
 
-If you use this code, cite the paper and this repository. A machine-readable
-citation template is provided in [`CITATION.cff`](CITATION.cff).
+If you use this code, cite the manuscript and this repository. The machine-
+readable citation metadata is in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
-Choose and add a license before publication. If this repository is intended to
-be distributed under the same terms as the template C program, add GPL-3.0 and
-state that choice explicitly in this section.
+Add a license before public release. Choose the license that matches the
+authors’ distribution requirements and commit the corresponding `LICENSE` file.

@@ -1,8 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this verification supplement, please cite the paper and this repository."
+message: "If you use this verification supplement, please cite the manuscript and this repository."
 authors:
-  - name: "Qzw-05"
-title: "U2 Kernel Constructive-Expansion Verification"
+  - family-names: "Qian"
+    given-names: "Zewei"
+  - family-names: "Li"
+    given-names: "Pingshan"
+title: "Verification Supplement for Characterization of Cubic Graphs with Exactly Two Lonely Edges"
 version: "1.0.0"
 date-released: 2026-10-11
 url: "https://github.com/Qzw-05/python"

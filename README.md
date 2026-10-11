@@ -82,7 +82,7 @@ request. The workflow is in [`.github/workflows/verify.yml`](.github/workflows/v
 - `marked_construction_certificates.json`: finite seed constructions and
   sampled marked constructions.
 - `revised_sections_7_9_certificates.json`: the encoded marking checks for the
-  revised Sections 7–9 material.
+  material.
 - `infinite_transfer_certificates.json`: local transfer tables, double-rung
   relations, and explicit infinite-family witnesses.
 

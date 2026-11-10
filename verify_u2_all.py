@@ -705,7 +705,7 @@ def main_revised_sections():
             report['infinite'].append({'r': r, 't': t, 'type': typ, 'order': len(G), 'active_count': len(active)})
     out = OUTPUT_DIR / 'revised_sections_7_9_certificates.json'
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
-    print('All revised Sections 7--9 assertions passed.')
+    print('All encoded standard-marking checks passed (current Sections 4.2-4.3; see README for lemma mapping).')
 '===== INFINITE TRANSFER CHECKS ====='
 State = tuple[int, int]
 ZERO = (0, 0)

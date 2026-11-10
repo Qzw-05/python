@@ -89,3 +89,32 @@ Passing these assertions verifies the encoded checks. Sampling an infinite
 family does not prove the unrestricted statement for every parameter.
 Providing a runnable release does not establish that a referee has audited
 the authors' code. The accompanying mathematical proofs remain necessary.
+
+<!-- BEGIN MANUSCRIPT NUMBERING NOTE -->
+## Current manuscript numbering and historical release evidence
+
+See the README section "Correspondence with the current four-section manuscript"
+for the certificate-to-lemma mapping. The legacy filename
+`revised_sections_7_9_certificates.json` is retained; its standard-marking checks
+now correspond to current Sections 4.2-4.3, especially Lemma 4.16 and the samples
+for Lemmas 4.17-4.18. Theorems 4.19-4.21 remain mathematical results, not claims
+proved by finite sampling.
+
+The fixed `v1.0.1` tag and `evidence/reference8/` are historical records and are
+not rewritten by the numbering correction. Thus the old success message
+"All revised Sections 7--9 assertions passed." may still appear in that
+historical log and when running the historical tag. In a checkout containing
+this correction, the corresponding console message is:
+
+```text
+All encoded standard-marking checks passed (current Sections 4.2-4.3; see README for lemma mapping).
+```
+
+The source hash in `evidence/reference8/environment.json` identifies the
+historical run, not the verifier after this message-only correction. The updated
+`SHA256SUMS.txt` records the current files while retaining the historical evidence
+files unchanged. The mathematical assertions and all four JSON certificates are
+unchanged. To cite a checkout including this correction, record its full commit
+with `git rev-parse HEAD`; the historical `v1.0.1` checkout instructions above
+reproduce the old release. No existing tag is moved by this correction.
+<!-- END MANUSCRIPT NUMBERING NOTE -->

@@ -1,0 +1,16 @@
+{
+  "release_version": "1.0.1",
+  "tested_source_commit": "d6223819911284f62393d8c24273a49835694d98",
+  "started_utc": "2026-11-10T04:48:05.227341+00:00",
+  "duration_seconds": 2.03,
+  "python": "3.14.6",
+  "python_implementation": "CPython",
+  "system": "Darwin",
+  "architecture": "arm64",
+  "networkx": "3.6.1",
+  "python_optimization_level": 0,
+  "command": "python -I -u verify_u2_all.py --output-dir evidence/reference8/certificates",
+  "exit_code": 0,
+  "success_message_seen": true,
+  "verifier_sha256": "00d8e252514e94865d898656dd81d2cbb91e5df9515eb4c81d94398c652cfd13"
+}

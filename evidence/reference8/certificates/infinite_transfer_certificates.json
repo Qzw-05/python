@@ -1,0 +1,528 @@
+{
+  "local_table": "passed",
+  "double_rung_table": "passed",
+  "samples": [
+    {
+      "r": 2,
+      "t": 1,
+      "type": "=",
+      "order": 14,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 10,
+      "full_subset_check": true
+    },
+    {
+      "r": 2,
+      "t": 3,
+      "type": "!=",
+      "order": 14,
+      "active_count": 6,
+      "explicit_inactive_witnesses": 8,
+      "full_subset_check": true
+    },
+    {
+      "r": 3,
+      "t": 1,
+      "type": "!=",
+      "order": 16,
+      "active_count": 7,
+      "explicit_inactive_witnesses": 9,
+      "full_subset_check": true
+    },
+    {
+      "r": 3,
+      "t": 3,
+      "type": "=",
+      "order": 16,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 12,
+      "full_subset_check": true
+    },
+    {
+      "r": 4,
+      "t": 1,
+      "type": "=",
+      "order": 18,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 14,
+      "full_subset_check": true
+    },
+    {
+      "r": 4,
+      "t": 3,
+      "type": "!=",
+      "order": 18,
+      "active_count": 8,
+      "explicit_inactive_witnesses": 10,
+      "full_subset_check": true
+    },
+    {
+      "r": 5,
+      "t": 1,
+      "type": "!=",
+      "order": 20,
+      "active_count": 9,
+      "explicit_inactive_witnesses": 11,
+      "full_subset_check": true
+    },
+    {
+      "r": 5,
+      "t": 3,
+      "type": "=",
+      "order": 20,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 16,
+      "full_subset_check": true
+    },
+    {
+      "r": 6,
+      "t": 1,
+      "type": "=",
+      "order": 22,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 18,
+      "full_subset_check": true
+    },
+    {
+      "r": 6,
+      "t": 3,
+      "type": "!=",
+      "order": 22,
+      "active_count": 10,
+      "explicit_inactive_witnesses": 12,
+      "full_subset_check": true
+    },
+    {
+      "r": 7,
+      "t": 1,
+      "type": "!=",
+      "order": 24,
+      "active_count": 11,
+      "explicit_inactive_witnesses": 13,
+      "full_subset_check": true
+    },
+    {
+      "r": 7,
+      "t": 3,
+      "type": "=",
+      "order": 24,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 20,
+      "full_subset_check": true
+    },
+    {
+      "r": 8,
+      "t": 1,
+      "type": "=",
+      "order": 26,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 22,
+      "full_subset_check": true
+    },
+    {
+      "r": 8,
+      "t": 3,
+      "type": "!=",
+      "order": 26,
+      "active_count": 12,
+      "explicit_inactive_witnesses": 14,
+      "full_subset_check": true
+    },
+    {
+      "r": 9,
+      "t": 1,
+      "type": "!=",
+      "order": 28,
+      "active_count": 13,
+      "explicit_inactive_witnesses": 15,
+      "full_subset_check": true
+    },
+    {
+      "r": 9,
+      "t": 3,
+      "type": "=",
+      "order": 28,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 24,
+      "full_subset_check": true
+    },
+    {
+      "r": 10,
+      "t": 1,
+      "type": "=",
+      "order": 30,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 26,
+      "full_subset_check": true
+    },
+    {
+      "r": 10,
+      "t": 3,
+      "type": "!=",
+      "order": 30,
+      "active_count": 14,
+      "explicit_inactive_witnesses": 16,
+      "full_subset_check": true
+    },
+    {
+      "r": 11,
+      "t": 1,
+      "type": "!=",
+      "order": 32,
+      "active_count": 15,
+      "explicit_inactive_witnesses": 17,
+      "full_subset_check": true
+    },
+    {
+      "r": 11,
+      "t": 3,
+      "type": "=",
+      "order": 32,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 28,
+      "full_subset_check": true
+    },
+    {
+      "r": 12,
+      "t": 1,
+      "type": "=",
+      "order": 34,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 30,
+      "full_subset_check": true
+    },
+    {
+      "r": 12,
+      "t": 3,
+      "type": "!=",
+      "order": 34,
+      "active_count": 16,
+      "explicit_inactive_witnesses": 18,
+      "full_subset_check": true
+    },
+    {
+      "r": 13,
+      "t": 1,
+      "type": "!=",
+      "order": 36,
+      "active_count": 17,
+      "explicit_inactive_witnesses": 19,
+      "full_subset_check": false
+    },
+    {
+      "r": 13,
+      "t": 3,
+      "type": "=",
+      "order": 36,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 32,
+      "full_subset_check": true
+    },
+    {
+      "r": 14,
+      "t": 1,
+      "type": "=",
+      "order": 38,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 34,
+      "full_subset_check": true
+    },
+    {
+      "r": 14,
+      "t": 3,
+      "type": "!=",
+      "order": 38,
+      "active_count": 18,
+      "explicit_inactive_witnesses": 20,
+      "full_subset_check": false
+    },
+    {
+      "r": 15,
+      "t": 1,
+      "type": "!=",
+      "order": 40,
+      "active_count": 19,
+      "explicit_inactive_witnesses": 21,
+      "full_subset_check": false
+    },
+    {
+      "r": 15,
+      "t": 3,
+      "type": "=",
+      "order": 40,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 36,
+      "full_subset_check": true
+    },
+    {
+      "r": 16,
+      "t": 1,
+      "type": "=",
+      "order": 42,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 38,
+      "full_subset_check": true
+    },
+    {
+      "r": 16,
+      "t": 3,
+      "type": "!=",
+      "order": 42,
+      "active_count": 20,
+      "explicit_inactive_witnesses": 22,
+      "full_subset_check": false
+    },
+    {
+      "r": 17,
+      "t": 1,
+      "type": "!=",
+      "order": 44,
+      "active_count": 21,
+      "explicit_inactive_witnesses": 23,
+      "full_subset_check": false
+    },
+    {
+      "r": 17,
+      "t": 3,
+      "type": "=",
+      "order": 44,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 40,
+      "full_subset_check": true
+    },
+    {
+      "r": 18,
+      "t": 1,
+      "type": "=",
+      "order": 46,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 42,
+      "full_subset_check": true
+    },
+    {
+      "r": 18,
+      "t": 3,
+      "type": "!=",
+      "order": 46,
+      "active_count": 22,
+      "explicit_inactive_witnesses": 24,
+      "full_subset_check": false
+    },
+    {
+      "r": 19,
+      "t": 1,
+      "type": "!=",
+      "order": 48,
+      "active_count": 23,
+      "explicit_inactive_witnesses": 25,
+      "full_subset_check": false
+    },
+    {
+      "r": 19,
+      "t": 3,
+      "type": "=",
+      "order": 48,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 44,
+      "full_subset_check": true
+    },
+    {
+      "r": 20,
+      "t": 1,
+      "type": "=",
+      "order": 50,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 46,
+      "full_subset_check": true
+    },
+    {
+      "r": 20,
+      "t": 3,
+      "type": "!=",
+      "order": 50,
+      "active_count": 24,
+      "explicit_inactive_witnesses": 26,
+      "full_subset_check": false
+    },
+    {
+      "r": 21,
+      "t": 1,
+      "type": "!=",
+      "order": 52,
+      "active_count": 25,
+      "explicit_inactive_witnesses": 27,
+      "full_subset_check": false
+    },
+    {
+      "r": 21,
+      "t": 3,
+      "type": "=",
+      "order": 52,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 48,
+      "full_subset_check": true
+    },
+    {
+      "r": 22,
+      "t": 1,
+      "type": "=",
+      "order": 54,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 50,
+      "full_subset_check": true
+    },
+    {
+      "r": 22,
+      "t": 3,
+      "type": "!=",
+      "order": 54,
+      "active_count": 26,
+      "explicit_inactive_witnesses": 28,
+      "full_subset_check": false
+    },
+    {
+      "r": 23,
+      "t": 1,
+      "type": "!=",
+      "order": 56,
+      "active_count": 27,
+      "explicit_inactive_witnesses": 29,
+      "full_subset_check": false
+    },
+    {
+      "r": 23,
+      "t": 3,
+      "type": "=",
+      "order": 56,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 52,
+      "full_subset_check": true
+    },
+    {
+      "r": 24,
+      "t": 1,
+      "type": "=",
+      "order": 58,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 54,
+      "full_subset_check": true
+    },
+    {
+      "r": 24,
+      "t": 3,
+      "type": "!=",
+      "order": 58,
+      "active_count": 28,
+      "explicit_inactive_witnesses": 30,
+      "full_subset_check": false
+    },
+    {
+      "r": 25,
+      "t": 1,
+      "type": "!=",
+      "order": 60,
+      "active_count": 29,
+      "explicit_inactive_witnesses": 31,
+      "full_subset_check": false
+    },
+    {
+      "r": 25,
+      "t": 3,
+      "type": "=",
+      "order": 60,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 56,
+      "full_subset_check": true
+    },
+    {
+      "r": 26,
+      "t": 1,
+      "type": "=",
+      "order": 62,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 58,
+      "full_subset_check": true
+    },
+    {
+      "r": 26,
+      "t": 3,
+      "type": "!=",
+      "order": 62,
+      "active_count": 30,
+      "explicit_inactive_witnesses": 32,
+      "full_subset_check": false
+    },
+    {
+      "r": 27,
+      "t": 1,
+      "type": "!=",
+      "order": 64,
+      "active_count": 31,
+      "explicit_inactive_witnesses": 33,
+      "full_subset_check": false
+    },
+    {
+      "r": 27,
+      "t": 3,
+      "type": "=",
+      "order": 64,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 60,
+      "full_subset_check": true
+    },
+    {
+      "r": 28,
+      "t": 1,
+      "type": "=",
+      "order": 66,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 62,
+      "full_subset_check": true
+    },
+    {
+      "r": 28,
+      "t": 3,
+      "type": "!=",
+      "order": 66,
+      "active_count": 32,
+      "explicit_inactive_witnesses": 34,
+      "full_subset_check": false
+    },
+    {
+      "r": 29,
+      "t": 1,
+      "type": "!=",
+      "order": 68,
+      "active_count": 33,
+      "explicit_inactive_witnesses": 35,
+      "full_subset_check": false
+    },
+    {
+      "r": 29,
+      "t": 3,
+      "type": "=",
+      "order": 68,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 64,
+      "full_subset_check": true
+    },
+    {
+      "r": 30,
+      "t": 1,
+      "type": "=",
+      "order": 70,
+      "active_count": 4,
+      "explicit_inactive_witnesses": 66,
+      "full_subset_check": true
+    },
+    {
+      "r": 30,
+      "t": 3,
+      "type": "!=",
+      "order": 70,
+      "active_count": 34,
+      "explicit_inactive_witnesses": 36,
+      "full_subset_check": false
+    }
+  ]
+}

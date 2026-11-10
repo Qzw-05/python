@@ -1,0 +1,27 @@
+Certificates will be written to: <REPOSITORY>/evidence/reference8/certificates
+[1/4] finite kernel checks
+All assertions passed.
+Wrote <REPOSITORY>/evidence/reference8/certificates/u2_finite_certificates.json
+Sigma partitions:
+  T0: {'0': [0, 2, 9], '1': [1, 3, 4, 6, 7, 8], '3': [5]}
+  T1: {'0': [2, 9], '1': [0, 1, 3, 4, 6, 7, 8, 10, 11], '3': [5]}
+  T2: {'0': [9], '1': [0, 1, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13], '3': [5]}
+  T3: {'0': [], '1': [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], '3': [5]}
+Length-four table:
+  1111: pm=15, lonely=4
+  1112: pm=11, lonely=3
+  1121: pm=9, lonely=2
+  1122: pm=11, lonely=2
+  1123: pm=11, lonely=3
+  1212: pm=9, lonely=2
+  1213: pm=9, lonely=2
+  1221: pm=10, lonely=2
+  1223: pm=9, lonely=2
+  1231: pm=10, lonely=2
+[2/4] marked construction checks
+All marked constructive assertions passed.
+[3/4] standard marking checks
+All revised Sections 7--9 assertions passed.
+[4/4] infinite ladder-transfer checks
+All infinite ladder-transfer assertions passed.
+All four verification suites passed.

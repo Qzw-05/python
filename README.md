@@ -111,3 +111,14 @@ readable citation metadata is in [`CITATION.cff`](CITATION.cff).
 
 Add a license before public release. Choose the license that matches the
 authors’ distribution requirements and commit the corresponding `LICENSE` file.
+
+
+## Fixed version for manuscript reference [8]
+
+Program: **Verification Supplement for Characterization of Cubic Graphs with Exactly Two Lonely Edges** (`verify_u2_all.py`).
+Version: **1.0.1**, tag [`v1.0.1`](https://github.com/Qzw-05/python/tree/v1.0.1).
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the fixed-version checkout,
+requirements, exact commands, expected output, scope, and recorded evidence.
+From a checkout of the cited version, run `bash reproduce.sh`.
+Cite the full release commit as well as the version. Machine-readable
+metadata are in [CITATION.cff](CITATION.cff).

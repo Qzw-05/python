@@ -1,11 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this verification supplement, please cite the manuscript and this repository."
+message: "Please cite this versioned software supplement together with the manuscript."
+type: software
 authors:
   - family-names: "Qian"
     given-names: "Zewei"
   - family-names: "Li"
     given-names: "Pingshan"
 title: "Verification Supplement for Characterization of Cubic Graphs with Exactly Two Lonely Edges"
-version: "1.0.0"
-date-released: 2026-10-11
-url: "https://github.com/Qzw-05/python"
+version: "1.0.1"
+date-released: 2026-11-10
+repository-code: "https://github.com/Qzw-05/python"
+url: "https://github.com/Qzw-05/python/tree/v1.0.1"
+abstract: "Exact checks for the encoded finite kernels, standard markings, and bounded ladder-family samples. Entry point: verify_u2_all.py."

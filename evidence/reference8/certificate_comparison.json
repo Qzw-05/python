@@ -1,0 +1,14 @@
+{
+  "u2_finite_certificates.json": {
+    "equal_json_values": true
+  },
+  "marked_construction_certificates.json": {
+    "equal_json_values": true
+  },
+  "revised_sections_7_9_certificates.json": {
+    "equal_json_values": true
+  },
+  "infinite_transfer_certificates.json": {
+    "equal_json_values": true
+  }
+}
